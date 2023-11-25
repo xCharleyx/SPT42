@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>SPT42</title>
+</head>
+<body>
+    
+    <header class="header">
+        <nav class="navbar">
+            <a href="#">Дом</a>
+            <a href="#">Информация</a>
+            <a href="#">Услуги</a>
+            <a href="#">Контакты</a>
+        </nav>
+
+        <form action="#" class="search-bar">
+            <input type="text" placeholder="Поиск...">
+            <button type="submit"><i class='bx bx-search'></i></button>
+        </form>
+    </header>
+
+    <div class="background"></div>
+    <div class="container">
+        <div class="content">
+            <h2 class="logo"><i class='bx bxl-firebase' ></i>SPT</h2>
+
+            <div class="text-sci">
+                <h2>Добро пожаловать!<br><span>Это новый наш сайт</span></h2>
+
+                <p>Мы делаем мир добрее</p>
+
+                       <div class="social-icons">
+                        <a href="https://vk.com/spt42"><i class='bx bxl-vk' ></i></a>
+                        <a href="https://t.me/spt42"><i class='bx bxl-telegram' ></i></a>
+                       </div>
+            </div>
+        </div>
+
+        <div class="logreg-box">
+            <div class="form-box login">
+                <form action="#">
+                    <h2>Войти</h2>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-envelope'></i></span>
+                        <input type="email" required>
+                        <label>Почта</label>
+                    </div>
+                    
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+                        <input type="password" required>
+                        <label>Пароль</label>
+                    </div>
+
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> Запомни меня</label>
+                        <a href="#">Забыли пароль?</a>
+                    </div>
+
+                    <button type="submit" class="btn">Войти</button>
+
+                    <div class="login-register">
+                        <p>У вас нет учетной записи?  <a href="#" class="register-link">Регистрация</a></p>
+                    </div>
+                </form>
+            </div>
+
+
+            <div class="form-box register">
+                <form action="#">
+                    <h2>Регистрация</h2>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-user'></i></span>
+                        <input type="text" required>
+                        <label>Логин</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-envelope'></i></span>
+                        <input type="email" required>
+                        <label>Почта</label>
+                    </div>
+                    
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+                        <input type="password" required>
+                        <label>Пароль</label>
+                    </div>
+
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> Я согласен с условиями</label>
+                    </div>
+
+                    <button type="submit" class="btn">Регистрация</button>
+
+                    <div class="login-register">
+                        <p>У вас уже есть учетная запись? <a href="#" class="login-link">Войти</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
